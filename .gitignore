@@ -1,0 +1,29 @@
+# Ignore everything
+*
+
+# Allow .c files
+!*.c
+
+# Allow Makefile (case-sensitive)
+!Makefile
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow Markdown files (.md)
+!*.md
+
+# Ensure .git directory is never ignored
+!.git/
+
+
+# Ignore files in subdirectories except .c and Makefile
+!*/
+
+# Optional: Ignore temporary files and common generated files
+*.o
+*.ko
+*.mod.c
+Module.symvers
+modules.order
+*.cmd
